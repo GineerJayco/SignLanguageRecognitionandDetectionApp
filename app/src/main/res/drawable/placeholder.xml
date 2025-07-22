@@ -1,0 +1,11 @@
+<!-- res/drawable/placeholder.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM13,18h-2v-2h2v2zm1.07,-7.75c-0.9,0.92 -1.07,1.25 -1.07,2.25h-2v-0.5c0,-1.1 0.45,-2.1 1.17,-2.83 0.59,-0.59 1.33,-1.04 2.1,-1.43 0.56,-0.29 0.73,-0.98 0.37,-1.5 -0.28,-0.39 -0.82,-0.53 -1.27,-0.37 -1.04,0.36 -2.01,0.98 -2.76,1.81l-1.42,-1.42C9.55,6.4 10.72,5.68 12,5.24c1.53,-0.53 3.24,0.13 4.08,1.5 0.89,1.44 0.5,3.33 -0.91,4.49z"/>
+</vector>

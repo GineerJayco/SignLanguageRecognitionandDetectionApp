@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Scoreboard -->
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/high_score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score: 0"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess the Sequence"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- EditText for user input -->
+    <EditText
+        android:id="@+id/guess_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your guess"
+        android:inputType="textCapCharacters"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Button to check the guess -->
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView for displaying the result -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+</LinearLayout>

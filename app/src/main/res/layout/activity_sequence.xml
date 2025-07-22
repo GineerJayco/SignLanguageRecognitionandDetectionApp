@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sequence_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <!-- Title or instruction -->
+    <TextView
+        android:id="@+id/sequence_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch the sign"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Image for the sign language letter -->
+    <ImageView
+        android:id="@+id/sign_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Sign Image"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/placeholder" /> <!-- Use your actual image -->
+
+    <!-- Control buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/replay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replay"
+            android:layout_marginEnd="12dp" />
+
+        <Button
+            android:id="@+id/slow_motion_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slow Motion" />
+    </LinearLayout>
+
+    <!-- Next button -->
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
